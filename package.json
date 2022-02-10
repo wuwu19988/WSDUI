@@ -9,7 +9,9 @@
     "serve": "vitepress serve docs",
     "register:components": "vitepress-rc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "element-plus": "^2.0.1"
+  },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "less": "^4.1.2",
