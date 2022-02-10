@@ -1,6 +1,6 @@
 <template>
   <button :class="['xl-button', type ? 'xl-button--' + type : '']">
-    <slot/>
+    <slot />
   </button>
 </template>
 
