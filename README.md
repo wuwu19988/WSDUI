@@ -11,9 +11,8 @@
 ```bash
 git clone https://github.com/wuwu19988/WSDUI.git
 
-yarn
-# 在本地启动服务器
-yarn dev
+1. yarn
+2. yarn dev
 
 ```
 
