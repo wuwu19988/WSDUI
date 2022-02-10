@@ -1,5 +1,5 @@
 # WSD-UI
-:::demo 
+:::tip wsd 
 ```vue
  hello world
 ```
