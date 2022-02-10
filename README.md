@@ -1,9 +1,9 @@
 # WSD-UI
-
-:::test
+:::demo 
+```vue
  hello world
+```
 :::
-
 
 # WSDUI
 # WSDUI
