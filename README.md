@@ -1,7 +1,5 @@
 # WSD-UI
 
-基于 [Vitepress-Theme-Demoblock](https://github.com/wuwu19988/WSDUI) 插件来实现vue组件的支持。
-
 - [x] vue组件
 
 ```js
