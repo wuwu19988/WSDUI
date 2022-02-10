@@ -1,15 +1,19 @@
 # WSD-UI
 
-::: tip 1
-This is a tip
-```vue
-<div>test</div>
-```
-:::
-
 ```vue
  hello world
 ```
 
 # WSDUI
-# WSDUI
+# WSDUI 
+## 安装
+
+```bash
+git clone https://github.com/wuwu19988/WSDUI.git
+
+yarn
+# 在本地启动服务器
+yarn dev
+
+```
+
