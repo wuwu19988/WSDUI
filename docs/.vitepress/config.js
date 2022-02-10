@@ -14,7 +14,7 @@ module.exports = {
   ],
   base: base,
   themeConfig: {
-    repo: 'xinlei3166/vitepress-demo',
+    repo: 'wuwu19988/WSDUI',
     logo: '/logowsd.svg',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -22,7 +22,7 @@ module.exports = {
     algolia: {
       appId: 'X51HWTCQJJ',
       apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'vitepress-demo'
+      indexName: 'WSDUI'
     },
 
     // nav
