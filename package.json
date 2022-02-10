@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn run register:components --host && vitepress dev docs --host",
+    "build": "yarn run register:components && cross-env BASE=/vitepress-demo/ vitepress build docs",
+    "serve": "vitepress serve docs",
+    "register:components": "vitepress-rc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "less": "^4.1.2",
+    "prettier": "^2.2.1",
+    "vitepress": "^0.16.1",
+    "vitepress-theme-demoblock": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
