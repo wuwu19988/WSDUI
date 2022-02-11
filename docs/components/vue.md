@@ -21,3 +21,36 @@
 | ok      | 确认触发函数 | function | ()=>{}       | —      |
 | cancel  | 取消触发函数 | function | ()=>{}       | —      |
 
+## naive UI
+
+:::demo
+
+```vue
+<template>
+  <n-button>naive-ui</n-button>
+</template>
+```
+:::
+
+:::demo 
+
+```vue
+<template>
+  <n-space>
+    <n-switch v-model:value="active" />
+    <n-switch v-model:value="active" disabled />
+  </n-space>
+</template>
+
+<script>
+import { defineComponent, ref } from 'vue'
+
+export default defineComponent({
+  setup () {
+    return {
+      active: ref(false)
+    }
+  }
+})
+</script>
+```

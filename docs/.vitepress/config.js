@@ -1,10 +1,12 @@
 const base = process.env.BASE || '/'
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
+const catlogs = require('./configs/catlogs')
 
 module.exports = {
-  title: 'WSD-UI',
-  description: 'Life is short, Keep it simple.',
+  title: 'WSD-UI', //网站标题
+  description: 'WSD-UI', //网站描述
+
   head: [
     ['link', {
       rel: 'icon',
@@ -14,15 +16,16 @@ module.exports = {
   ],
   base: base,
   themeConfig: {
-    repo: 'wuwu19988/WSDUI',
-    logo: '/logowsd.svg',
+    repo: 'wuwu19988/WSDUI', //github 地址
+    logo: '/logowsd.svg', // 左上角logo
     docsDir: 'docs',
     docsBranch: 'master',
 
+    //暂不可用
     algolia: {
-      appId: 'X51HWTCQJJ',
-      apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'WSDUI'
+      appId: ' ',
+      apiKey: ' ',
+      indexName: ' '
     },
 
     // nav
@@ -30,6 +33,7 @@ module.exports = {
 
     // sidebar
     sidebar,
+
 
     // page meta
     editLinks: true,
@@ -55,5 +59,6 @@ module.exports = {
         cssPreprocessor: 'less'
       })
     }
-  }
+  },
+
 }

@@ -8,6 +8,7 @@ import '../../../src/styles/index.css'
 import './styles/index.css'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import naive from 'naive-ui'
 
 
 export default {
@@ -20,5 +21,6 @@ export default {
     app.component(Button.name, Button)
     registerComponents(app)
     app.use(ElementPlus)
+    app.use(naive)
   }
 }

@@ -2,27 +2,28 @@
 <!--示例代码-->
 <!--</demo>-->
 <template>
-  <input class="input" type="text" v-model="input"/>
-  <xl-button type="primary" @click="onSubmit">提交</xl-button>
-  <div style="margin-top: 16px">输出内容：{{ content }}</div>
+  <div> <input class="input" type="text" v-model="input" />
+    <el-button type="primary" @click="onSubmit">提交</el-button>
+    <div style="margin-top: 16px">输出内容：{{ content }}</div>
+  </div>
 </template>
 
 <script>
-  import { ref, defineComponent } from 'vue'
+import { ref, defineComponent } from 'vue'
 
-  export default defineComponent({
-    name: 'InputDemo',
-    setup() {
-      const input = ref()
-      const content = ref()
+export default defineComponent({
+  name: 'InputDemo',
+  setup () {
+    const input = ref()
+    const content = ref()
 
-      function onSubmit() {
-        content.value = input.value
-      }
-
-      return { input, content, onSubmit }
+    function onSubmit () {
+      content.value = input.value
     }
-  })
+
+    return { input, content, onSubmit }
+  }
+})
 </script>
 
 <style>

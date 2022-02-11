@@ -41,21 +41,16 @@ function getComponentsSidebar() {
 
 function getGuideSidebar() {
   return [{
-      text: '测试1',
+      text: '介绍',
       children: [{
-          text: '测试1.1',
-          link: '/guide/button'
-        },
-        {
-          text: '测试1.2',
-          link: '/guide/modal'
-        }
-      ]
+        text: 'WSD UI',
+        link: '/guide/button'
+      }]
     },
     {
-      text: '测试2',
+      text: '快速上手',
       children: [{
-          text: '测试2.1',
+          text: '安装',
           link: '/guide/test'
         },
         {
@@ -63,6 +58,25 @@ function getGuideSidebar() {
           link: '/guide/vue'
         }
       ]
+    },
+    {
+      text: '指南',
+      children: [{
+          text: '调整主题',
+          link: '/guide/test'
+        },
+        {
+          text: '服务端渲染',
+          link: '/guide/vue'
+        }
+      ]
+    },
+    {
+      text: '版本',
+      children: [{
+        text: '变更日志',
+        link: '/guide/test'
+      }]
     }
   ]
 }
