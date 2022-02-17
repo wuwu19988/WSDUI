@@ -5,7 +5,6 @@ const catlogs = require('./configs/catlogs')
 
 module.exports = {
   title: 'WSD-UI', //网站标题
-  description: 'WSD-UI', //网站描述
 
   head: [
     ['link', {
@@ -21,12 +20,15 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
 
-    //暂不可用
+    //暂不可用 algolia 搜索
     algolia: {
       appId: ' ',
       apiKey: ' ',
       indexName: ' '
     },
+
+    //页面滚动
+    smoothScroll: true,
 
     // nav
     nav,
@@ -39,6 +41,7 @@ module.exports = {
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新',
+    // lastUpdated: 'Last Updated', 
   },
   markdown: {
     // options for markdown-it-anchor

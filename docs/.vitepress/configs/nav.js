@@ -11,12 +11,12 @@ module.exports = [{
     link: '/components/button',
     activeMatch: getPath('^/components/')
   },
-  {
-    text: 'API 参考',
-    link: '/api/'
-  },
-  {
-    text: '更新日志',
-    link: 'https://github.com/wuwu19988/WSDUI'
-  }
+  // {
+  //   text: 'API',
+  //   link: '/api/'
+  // },
+  // {
+  //   text: '更新日志',
+  //   link: 'https://github.com/wuwu19988/WSDUI'
+  // }
 ]

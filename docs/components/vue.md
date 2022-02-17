@@ -1,3 +1,7 @@
+---
+title: Docs with VitePress
+editLink: true
+---
 # Vue 引用组件
 
 ## 基础用法
@@ -13,18 +17,24 @@
   <el-button type="danger">危险按钮</el-button>
 </demo-block>
 
-## Attributes
+## 表格
 
-| 参数    | 说明         | 类型     | 可选值       | 默认值 |
-| ------- | ------------ | -------- | ------------ | ------ |
+| 参数    | 说明         | 类型     | 可选值       | cool |
+| ------- | ------------ | -------- | ------------ | ------: |
 | visible | 是否展示     | boolean  | true / false | normal |
-| ok      | 确认触发函数 | function | ()=>{}       | —      |
-| cancel  | 取消触发函数 | function | ()=>{}       | —      |
+| ok      | 确认触发函数 | function | ()=>{}       | 123    |
+| cancel  | 取消触发函数 | function | ()=>{}       | 12     |
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes |       are neat|$1     |
+| zebra stripes |       are neat|123     |
 
 ## naive UI
 
 :::demo
-
 ```vue
 <template>
   <n-button>naive-ui</n-button>

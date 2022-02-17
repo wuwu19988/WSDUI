@@ -16,7 +16,8 @@
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| zebra stripes |       are neat|$1     |
+| zebra stripes |       are neat|123     |
 
 
 ## 自定义容器
@@ -32,11 +33,26 @@ This is a warning
 This is a dangerous warning
 :::
 
+::: tip 提示
+这是一个tip，使用了别名“提示”
+:::
+::: warning
+这是一个warning，没有使用别名
+:::
+::: danger
+这是一个danger，没有使用别名
+:::
+
 ## 自定义标签
 ::: tip 1
 This is a tip
+
+:::demo
+
 ```vue
-<div>test</div>
+<template>
+  <n-button>naive-ui</n-button>
+</template>
 ```
 :::
 
@@ -133,6 +149,8 @@ Danger zone, do not proceed
   :kissing_smiling_eyes:
 
 ``` md 
+!
+#
   :tada: 
   :100: 
   :game_die:
@@ -140,3 +158,22 @@ Danger zone, do not proceed
 ```
 
 <!-- <Comment/> -->
+
+<table>
+    <tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</table>
+
+
+``` vue
+     <img src="cornImage.jpg"  title="帕兰映像" /> 
+

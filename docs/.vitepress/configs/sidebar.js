@@ -44,7 +44,7 @@ function getGuideSidebar() {
       text: '介绍',
       children: [{
         text: 'WSD UI',
-        link: '/guide/button'
+        link: '/guide/wsd-ui'
       }]
     },
     {
@@ -60,14 +60,14 @@ function getGuideSidebar() {
       ]
     },
     {
-      text: '指南',
+      text: '代码规范',
       children: [{
           text: '调整主题',
-          link: '/guide/test'
+          link: '/guide/theme'
         },
         {
           text: '服务端渲染',
-          link: '/guide/vue'
+          link: '/guide/ssr'
         }
       ]
     },
@@ -75,7 +75,7 @@ function getGuideSidebar() {
       text: '版本',
       children: [{
         text: '变更日志',
-        link: '/guide/test'
+        link: '/guide/logs'
       }]
     }
   ]

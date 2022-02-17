@@ -33,3 +33,12 @@
 | tab-position    | 选项卡所在位置            | string  | top/right/bottom/left | top                 |
 | stretch         | 标签的宽度是否自撑开      | boolean | -                     | false               |
 
+
+
+| parameter       | instruction              | type    | optional value        | Defaults            |
+| --------------- | ------------------------ | ------- | --------------------- | ------------------- |
+| xxxx            | xxxxxxxxxxxx             | string  | —                     | xxxxxx              |
+| xxxx            | xxxxxxxx                 | string  | -                     | —                   |
+| xxxxxxxx        | xxxxxxxxxxxxx            | boolean | —                     | false               |
+| xxxxxxxx        | xxxxxxxxxxxxx            | boolean | —                     | false               |
+
