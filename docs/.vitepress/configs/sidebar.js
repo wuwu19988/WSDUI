@@ -34,6 +34,10 @@ function getComponentsSidebar() {
       {
         text: 'Vue Script',
         link: '/components/vue-script'
+      },
+      {
+        text: '组件引入测试',
+        link: '/components/test'
       }
     ]
   }]

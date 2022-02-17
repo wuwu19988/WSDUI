@@ -1,7 +1,6 @@
 const base = process.env.BASE || '/'
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
-const catlogs = require('./configs/catlogs')
 
 module.exports = {
   title: 'WSD-UI', //网站标题
@@ -35,7 +34,6 @@ module.exports = {
 
     // sidebar
     sidebar,
-
 
     // page meta
     editLinks: true,
