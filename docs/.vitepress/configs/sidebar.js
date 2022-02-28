@@ -38,7 +38,12 @@ function getComponentsSidebar() {
       {
         text: '组件引入测试',
         link: '/components/test'
+      },
+      {
+        text: 'nav测试',
+        link: '/components/nav-ui'
       }
+
     ]
   }]
 }
@@ -54,12 +59,20 @@ function getGuideSidebar() {
     {
       text: '快速上手',
       children: [{
-          text: '安装',
-          link: '/guide/test'
+          text: '项目安装',
+          link: '/guide/Install'
         },
         {
-          text: 'element按钮测试',
-          link: '/guide/vue'
+          text: 'Markdown语法教程',
+          link: '/guide/markdown'
+        },
+        {
+          text: 'Markdown语法教程(高级)',
+          link: '/guide/markdown-high'
+        },
+        {
+          text: 'MD语法测试',
+          link: '/guide/test'
         }
       ]
     },
